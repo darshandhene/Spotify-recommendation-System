@@ -1,0 +1,27 @@
+{
+  "random_forest": {
+    "f1": 0.2594,
+    "auc_roc": 0.6937
+  },
+  "xgboost": {
+    "f1": 0.2572,
+    "auc_roc": 0.6907
+  },
+  "best_model": "random_forest",
+  "significant_features": [
+    "danceability",
+    "loudness",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "energy_dance_interaction",
+    "tempo_bucket",
+    "energy"
+  ],
+  "pca_components": 8,
+  "test_size": 0.2,
+  "cv_folds": 5
+}

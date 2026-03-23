@@ -113,7 +113,8 @@ def ingest_and_clean(spark):
         df = df.withColumn(col, df[col].cast(DoubleType()))
 
     # Cast popularity to integer
-    df = df.withColumn("popularity", df["popularity"].cast("integer"))
+    df = df.withColumn("popularity", F.expr("try_cast(popularity as integer)"))
+    df = df.dropna(subset=["popularity"])
 
     # Remove duplicates on track_id
     if "track_id" in df.columns:

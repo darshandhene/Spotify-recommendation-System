@@ -1,0 +1,12 @@
+feature,t_statistic,p_value,significant,liked_mean,not_liked_mean
+danceability,21.2438,0.0,True,0.2012,-0.022
+loudness,17.1058,0.0,True,0.1684,-0.0185
+speechiness,-8.4314,0.0,True,-0.0641,0.007
+acousticness,-18.1985,0.0,True,-0.1636,0.0179
+instrumentalness,-44.2809,0.0,True,-0.3159,0.0346
+liveness,-23.932,0.0,True,-0.1833,0.0201
+valence,7.6951,0.0,True,0.071,-0.0078
+tempo,-5.7705,0.0,True,-0.0569,0.0062
+energy_dance_interaction,15.6143,0.0,True,0.147,-0.0161
+tempo_bucket,-4.6514,3e-06,True,-0.0456,0.005
+energy,2.628,0.0086,True,0.0238,-0.0026
