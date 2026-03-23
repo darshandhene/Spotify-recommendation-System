@@ -1,4 +1,4 @@
-Spotify Recommendation System
+# Spotify Recommendation System
 An end-to-end ML pipeline that predicts whether a user will like a track based on audio features, using a two-stage approach: binary classification to filter likely-liked tracks, followed by engagement scoring to rank them by predicted appeal.
 
 Built on a real-world dataset of 114,000 Spotify tracks with a clean PySpark → scikit-learn handoff that mirrors production data architecture.
