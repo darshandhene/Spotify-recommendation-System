@@ -93,7 +93,7 @@ Python 3.9+
 Java 17+ (required for PySpark)
 On Mac: brew install openjdk@17 libomp
 # Clone and install
-git clone https://github.com/[your-username]/spotify-recommendation
+git clone https://github.com/darshandhene/Spotify-recommendation-System.git
 cd spotify-recommendation
 pip install -r requirements.txt
 
